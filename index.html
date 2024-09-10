@@ -15,28 +15,31 @@
       </h1>
       <nav class="menu">
         <ul>
-          <li><a href="" class="">About</a></li>
-          <li><a href="" class="">Service</a></li>
-          <li><a href="" class="">Works</a></li>
-          <li><a href="" class="">Contact</a></li>
+          <li><a href="#about" class="">About</a></li>
+          <li><a href="#service" class="">Service</a></li>
+          <li><a href="#works" class="">Works</a></li>
+          <li><a href="#contact" class="">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="mv">
-        <img src="./img/mv.png">
-       </section>       
+        <picture>
+          <source srcset="./img/mv-sp.png" media="(max-width: 768px)" alt="メンバー08"/>
+          <img src="./img/mv.png" alt="メンバー08">
+        </picture>
+      </section>
       <section class="slogan">
         <h2>
           伝えるを、魅せる
           <p class="sub">
-            やさしさと繊細さを大切に、心に残るデザインを創ります。<br>
-            あなたの物語を美しく、魅力的に彩るお手伝いをいたします。
+            やさしさと繊細さを大切に、<br class="sp">心に残るデザインを創ります。<br>
+            あなたの物語を美しく、<br class="sp">魅力的に彩るお手伝いをいたします。
           </p>
         </h2>
         <img src="./img/bear.png" alt="くまさんの画像" class="bear">
       </section>
-      <section class="service">
+      <section class="service" id="service">
         <h3>Service</h3>
         <ul class="list">
           <li>
@@ -50,7 +53,7 @@
           </li>
         </ul>
       </section>
-      <section class="works">
+      <section class="works" id="works">
         <h3>Works</h3>
         <ul class="list">
           <li>
@@ -79,7 +82,7 @@
           </li>
         </ul>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <h3>About</h3>
         <div class="flex">
           <div class="left">
@@ -97,7 +100,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h3>Contact</h3>
         <form class="form__wrapper">
           <div class="form">
